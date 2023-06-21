@@ -1,0 +1,13 @@
+numpy
+pandas
+Flask
+scikit-learn
+seaborn
+-e .
+
+
+## setup.py will get triggered
+
+# The -e flag stands for 'editable,' indicating that the package should be 
+# installed in editable mode. The dot (.) refers to the current directory, indicating that the package 
+# should be installed from the local directory where the requirements.txt file is located.
