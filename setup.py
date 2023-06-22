@@ -1,7 +1,7 @@
 from setuptools import find_packages,setup
-from typing import List  ## return type of the packages that we are reading
+from typing import List   ## return type of the packages that we are reading
 
-HYPEN_E_DOT='-e .' ## this will be removed when installing from requirements.txt
+HYPEN_E_DOT='-e .'        ## this will be removed when installing from requirements.txt
 
 def get_requirements(file_path:str)->List[str]:
     requirements=[]
@@ -13,8 +13,6 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPEN_E_DOT)
 
     return requirements
-
-
 
 
 setup(
